@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Management - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Account Management</h1>
+        <ul style="list-style: none; padding: 0;">
+            <li><a href="create_account.html" class="menu-link">Create Account</a></li>
+            <li><a href="deposit_money.html" class="menu-link">Deposit Money</a></li>
+            <li><a href="check_balance.html" class="menu-link">Check Balance</a></li>
+            <li><a href="withdraw_money.html" class="menu-link">Withdraw Money</a></li>
+        </ul>
+    </div>
+    <style>
+        .menu-link {
+            display: block;
+            padding: 16px;
+            margin: 12px 0;
+            background: #1976d2;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+        .menu-link:hover:not(.disabled) {
+            background: #1565c0;
+        }
+        .menu-link.disabled {
+            background: #b0bec5;
+            cursor: not-allowed;
+            color: #eee;
+        }
+    </style>
+</body>
+</html>
