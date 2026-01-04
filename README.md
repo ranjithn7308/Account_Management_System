@@ -10,7 +10,7 @@ The project demonstrates basic banking operations such as "creating an account, 
 - CSS – Styling the web pages
 - JavaScript – Client-side interactions
 - Git & GitHub– Version control
-- 
+
 # Project Structure
 Account management/
 - accounts.txt # Stores account data
