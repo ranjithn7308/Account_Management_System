@@ -1,6 +1,6 @@
 # Account Management System
 
-#Project Overview
+Project Overview
 This is a simple **Account Management System** developed using Python, HTML, CSS, and JavaScript.  
 The project demonstrates basic banking operations such as "creating an account, checking balance, depositing money, and withdrawing money".
 
